@@ -1,0 +1,114 @@
+/* ===============================
+   FEEDBACK SECTION
+================================ */
+.feedback {
+  background: #e9ddc8; /* closer to reference beige */
+  padding: 8rem 0;
+  overflow: hidden;
+  color: #1c1c1c; /* DEFAULT TEXT = BLACK */
+}
+
+.feedback-heading {
+  padding: 0 3.5rem;
+  margin-bottom: 6rem;
+}
+
+.feedback-heading h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 72px;               /* BIG like reference */
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  color: #1c1c1c;                /* BLACK heading */
+}
+
+/* ===============================
+   SLIDER
+================================ */
+.feedback-slider {
+  position: relative;
+}
+
+.feedback-row {
+  display: flex;
+  gap: 2.5rem;                   /* more breathing space */
+  padding: 0 3.5rem;
+}
+
+/* Fade edges */
+.fade-left,
+.fade-right {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 10rem;
+  height: 100%;
+  z-index: 10;
+}
+
+.fade-left {
+  left: 0;
+  background: linear-gradient(to right, #e9ddc8, transparent);
+}
+
+.fade-right {
+  right: 0;
+  background: linear-gradient(to left, #e9ddc8, transparent);
+}
+
+/* ===============================
+   CARD (BIG LIKE IMAGE)
+================================ */
+.feedback-card {
+  min-width: 420px;              /* ⬅️ BIGGER */
+  max-width: 420px;
+  min-height: 360px;             /* ⬅️ TALLER */
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 2.5rem 2.75rem;       /* ⬅️ MORE PADDING */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* ===============================
+   CARD HEADER
+================================ */
+.feedback-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  margin-bottom: 1.75rem;
+  color: #1c1c1c;                /* BLACK */
+}
+
+.feedback-stars {
+  color: #d49653;
+  letter-spacing: 0.2em;
+}
+
+/* ===============================
+   TEXT
+================================ */
+.feedback-text {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.25rem;            /* BIG TEXT */
+  line-height: 1.55;
+  color: #1c1c1c;                /* BLACK */
+}
+
+/* ===============================
+   AUTHOR
+================================ */
+.feedback-author {
+  font-size: 0.85rem;
+  margin-top: 3rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.feedback-author span {
+  display: block;
+  margin-top: 0.25rem;
+  font-weight: 500;
+  color: #1c1c1c;
+}

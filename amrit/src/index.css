@@ -1,0 +1,50 @@
+/* Tailwind v4 entry */
+@import "tailwindcss";
+
+/* ===============================
+   THEME VARIABLES
+================================ */
+:root {
+  --background: 0 0% 11%;
+  --foreground: 40 20% 95%;
+  --primary: 31 60% 58%;
+  --border: 0 0% 25%;
+}
+
+/* ===============================
+   BASE STYLES
+================================ */
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  body {
+    @apply font-sans antialiased;
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif tracking-tight;
+    font-weight: 300; /* replaces font-light safely */
+  }
+}
+
+/* ===============================
+   UTILITIES
+================================ */
+@layer utilities {
+  .text-gold {
+    color: hsl(var(--primary));
+  }
+
+  .bg-gold {
+    background-color: hsl(var(--primary));
+  }
+}
