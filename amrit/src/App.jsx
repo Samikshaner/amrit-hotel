@@ -1,8 +1,13 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import VideoSection from "./components/VideoSection";
 import Menu from "./components/Menu";
+import Catering from "./components/Catering";
 import Feedback from "./components/Feedback/Feedback";
 import Footer from "./components/Footer";
+import Drinks from "./components/Drinks";
+import Experiance from "./components/Experiance";
+
 import { motion } from "framer-motion";
 
 const dishImage = "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=1000"; 
@@ -14,6 +19,8 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        
+        <VideoSection/>
         
         <section id="about" className="relative py-24 md:py-40 bg-background overflow-hidden">
           <div className="container mx-auto px-6">
@@ -49,7 +56,9 @@ function App() {
 
         <Menu />
 
-        
+        <Catering/>
+        <Drinks/>
+        <Experiance/>
        
         
         <section id="reservations" className="py-24 bg-gold text-black text-center">

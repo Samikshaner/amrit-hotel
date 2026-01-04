@@ -19,7 +19,7 @@ const menuItems = [
 ];
 const Menu = () => {
   return (
-    <section id="menu" className="py-24 bg-card relative">
+    <section id="menu" className="py-2 bg-card relative">
       <div className="container mx-auto px-6 max-w-5xl">
         <div className="text-center mb-20">
           <span className="block font-sans text-xs tracking-widest uppercase text-gold mb-4">Culinary Masterpieces</span>
