@@ -1,4 +1,7 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+
+
 const menuItems = [
   {
     category: "Starters",
@@ -53,11 +56,15 @@ const Menu = () => {
             </motion.div>
           ))}
         </div>
-        <div className="mt-20 text-center">
-          <button className="inline-block px-10 py-4 border border-gold text-gold font-sans text-xs tracking-[0.2em] uppercase hover:bg-gold hover:text-black transition-all duration-300">
-            View Full Menu
-          </button>
-        </div>
+       <div className="mt-20 text-center">
+  <Link to="/menu">
+    <button className="inline-block px-10 py-4 border border-gold text-gold font-sans text-xs tracking-[0.2em] uppercase hover:bg-gold hover:text-black transition-all duration-300">
+      View Full Menu
+    </button>
+  </Link>
+</div>
+
+
       </div>
     </section>
   );
