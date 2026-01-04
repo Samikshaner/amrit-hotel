@@ -61,10 +61,13 @@ function App() {
         <Experiance/>
        
         
-        <section
+        
+  <section
   id="reservations"
-  className="py-24 bg-[#c2a14d] text-black text-center"
+  className="py-24 text-black text-center"
+  style={{ backgroundColor: "#D4AF6A" }}
 >
+
 
           <div className="container mx-auto px-6">
             <h2 className="font-serif text-4xl md:text-6xl mb-6">Experience the Royal Feast</h2>
