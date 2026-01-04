@@ -61,10 +61,15 @@ function App() {
         <Experiance/>
        
         
-        <section id="reservations" className="py-24 bg-gold text-black text-center">
+        <section
+  id="reservations"
+  className="py-24 bg-[#c2a14d] text-black text-center"
+>
+
           <div className="container mx-auto px-6">
             <h2 className="font-serif text-4xl md:text-6xl mb-6">Experience the Royal Feast</h2>
-            <button className="px-8 py-3 bg-black text-gold font-sans text-xs tracking-widest uppercase hover:bg-white hover:text-black transition-all duration-300">
+            <button className="px-8 py-3 bg-black text-[#f5e6b0] font-sans text-xs tracking-widest uppercase hover:bg-white hover:text-black transition-all duration-300">
+
               Make a Reservation
             </button>
           </div>
