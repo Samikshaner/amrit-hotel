@@ -1,7 +1,5 @@
 /* Tailwind v4 entry */
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@import "tailwindcss";
 
 /* ===============================
    THEME VARIABLES
